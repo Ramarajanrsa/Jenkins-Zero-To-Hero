@@ -17,13 +17,13 @@
         <version>2.2.4.RELEASE</version>
     </parent>
 
-
-    <!-- Java version -->
-    <properties>
-        <maven.compiler.release>17</maven.compiler.release>
+    <!--properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-         
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <java.version>11</java.version>
+    </properties-->
+
     <dependencies>
 
         <dependency>
